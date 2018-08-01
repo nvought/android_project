@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    android:layout_height="match_parent" >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|top">
+        <TextView
+            android:text="Nathan Vought "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="0" />
+        <TextView
+            android:text="Notes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="0" />
+        <Button
+            android:text="Home"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="40sp"
+            android:layout_marginTop="15dp"
+            android:onClick="viewHome"
+            android:layout_weight="0"/>
+        <Button
+            android:text="Back"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="40sp"
+            android:layout_marginTop="15dp"
+            android:onClick="backAddCourses"
+            android:layout_weight="0"/>
+        <EditText
+            android:id="@+id/cIDToSend"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:inputType="phone"/>
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:text="Course ID"/>
+        <EditText
+            android:id="@+id/notesToSend"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:text="Notes"/>
+        <Button
+            android:text="Save"
+            android:layout_width="400dp"
+            android:id="@+id/saveNotes"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="40sp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="0"/>
+        <Button
+            android:text="View"
+            android:layout_width="400dp"
+            android:id="@+id/viewNotes"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="40sp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="0"/>
+        <Button
+            android:text="Send notes through email"
+            android:layout_width="400dp"
+            android:id="@+id/sendEmail"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="40sp"
+            android:onClick="sendEmail"
+            android:layout_marginTop="15dp"
+            android:layout_weight="0"/>
+
+
+    </LinearLayout>
+</ScrollView>

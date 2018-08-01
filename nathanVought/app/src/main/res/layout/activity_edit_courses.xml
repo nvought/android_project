@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    android:layout_height="match_parent" >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|top">
+
+        <TextView
+            android:text="Nathan Vought "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="0" />
+        <TextView
+            android:text="Edit Courses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="0" />
+        <Button
+            android:text="Home"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="40sp"
+            android:layout_marginTop="15dp"
+            android:onClick="viewHome"
+            android:layout_weight="0"/>
+        <Button
+            android:text="Back"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="40sp"
+            android:layout_marginTop="15dp"
+            android:onClick="backEditCourses"
+            android:layout_weight="0"/>
+        <EditText
+            android:id="@+id/courseId"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:inputType="phone"/>
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:text="Course ID"/>
+        <EditText
+            android:id="@+id/courseTitle"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:text="Course Title"/>
+        <EditText
+            android:id="@+id/courseStartDate"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:hint="MM-DD-YYYY"
+            android:textAlignment="center"
+            android:inputType="date"/>
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:text="Start Date"/>
+        <EditText
+            android:id="@+id/courseEndDate"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:hint="MM-DD-YYYY"
+            android:textAlignment="center"
+            android:inputType="date"/>
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:text="End Date"/>
+        <Spinner
+            android:id="@+id/courseStatus"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:text="Status"/>
+        <EditText
+            android:id="@+id/courseMentorName"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:text="Course Mentor Name"/>
+        <EditText
+            android:id="@+id/courseMentorEmail"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:text="Course Mentor Email"/>
+        <EditText
+            android:id="@+id/courseMentorPhone"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:text="Course Mentor Phone#"/>
+        <Button
+            android:text="Submit"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="40sp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/addCourse"
+            android:layout_weight="0"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="400dp"
+            android:textSize="30sp"
+            android:text=""
+            android:id="@+id/coursesTextView" />
+    </LinearLayout>
+</ScrollView>

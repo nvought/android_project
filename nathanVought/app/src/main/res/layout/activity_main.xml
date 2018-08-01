@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    android:layout_height="match_parent" >
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_weight="0" />
+    <TextView
+        android:text="Home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_weight="0" />
+    <Button
+        android:text="Terms"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="40sp"
+        android:layout_marginTop="15dp"
+        android:onClick="viewTermsHome"
+        android:layout_weight="0"/>
+    <Button
+        android:text="Courses"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="40sp"
+        android:layout_marginTop="15dp"
+        android:onClick="viewCoursesHome"
+        android:layout_weight="0"/>
+    <Button
+        android:text="Assessments"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="40sp"
+        android:layout_marginTop="15dp"
+        android:onClick="viewAssessmentsHome"
+        android:layout_weight="0"/>
+    <Button
+        android:text="Progress"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="40sp"
+        android:layout_marginTop="15dp"
+        android:onClick="viewProgress"
+        android:layout_weight="0"/>
+
+
+</LinearLayout>
+</ScrollView>

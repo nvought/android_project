@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="c196.com.nathanvought">
+
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Terms" />
+        <activity android:name=".ViewTerms" />
+        <activity android:name=".AddTerms" />
+        <activity android:name=".EditTerms" />
+        <activity android:name=".RemoveTerms" />
+        <activity android:name=".Courses" />
+        <activity android:name=".ViewCourses" />
+        <activity android:name=".AddCourses" />
+        <activity android:name=".EditCourses" />
+        <activity android:name=".RemoveCourses" />
+        <activity android:name=".Assessments" />
+        <activity android:name=".ViewAssessments" />
+        <activity
+            android:name=".AddAssessments"
+            android:configChanges="orientation|screenSize" />
+        <activity android:name=".EditAssessments" />
+        <activity android:name=".RemoveAssessments" />
+        <activity android:name=".AddAssessmentToCourse" />
+        <activity android:name=".RemoveAssessmentFromCourse" />
+        <activity android:name=".AddCourseToTerm" />
+        <activity android:name=".RemoveCourseFromTerm" />
+        <activity android:name=".EmailNotesAboutCourse" />
+        <activity android:name=".SetAlarmForCourse" />
+
+        <receiver android:name=".StartDateNotification"/>
+        <receiver android:name=".CourseEndDateNotification"/>
+        <receiver android:name=".AssessmentNotification"/>
+        <activity
+            android:name=".Progress"
+            android:configChanges="orientation|screenSize" />
+        <activity android:name=".SetAlarmForAssessment"></activity>
+    </application>
+
+</manifest>

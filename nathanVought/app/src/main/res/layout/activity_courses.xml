@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    android:layout_height="match_parent" >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|top">
+        <TextView
+            android:text="Nathan Vought "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="0" />
+        <TextView
+            android:text="Courses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="0" />
+        <Button
+            android:text="Home"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="40sp"
+            android:layout_marginTop="15dp"
+            android:onClick="viewHome"
+            android:layout_weight="0"/>
+        <Button
+            android:text="View Courses"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="40sp"
+            android:layout_marginTop="15dp"
+            android:onClick="viewCourses"
+            android:layout_weight="0"/>
+        <Button
+            android:text="Add Courses"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="40sp"
+            android:layout_marginTop="15dp"
+            android:onClick="viewAddCourses"
+            android:layout_weight="0"/>
+        <Button
+            android:text="Edit Courses"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="40sp"
+            android:layout_marginTop="15dp"
+            android:onClick="viewEditCourses"
+            android:layout_weight="0"/>
+        <Button
+            android:text="Remove Courses"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="40sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:onClick="viewRemoveCourses"
+            android:layout_weight="0"/>
+        <Button
+            android:text="Add Assessment to Course"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="40sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:onClick="viewAddAssessmentToCourses"
+            android:layout_weight="0"/>
+        <Button
+            android:text="Remove Assessment to Course"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="40sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:onClick="viewRemoveAssessmentToCourses"
+            android:layout_weight="0"/>
+        <Button
+            android:text="Course Notes"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="40sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:onClick="viewEmailNotesAboutCourses"
+            android:layout_weight="0"/>
+        <Button
+            android:text="Course Notifications"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="40sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:onClick="viewSetAlarmForCourse"
+            android:layout_weight="0"/>
+    </LinearLayout>
+</ScrollView>

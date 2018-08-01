@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    android:layout_height="match_parent" >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|top">
+
+        <TextView
+            android:text="Nathan Vought "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="0" />
+        <TextView
+            android:text="Remove Assessments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="0" />
+        <Button
+            android:text="Home"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="40sp"
+            android:layout_marginTop="15dp"
+            android:onClick="viewHome"
+            android:layout_weight="0"/>
+        <Button
+            android:text="Back"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="40sp"
+            android:layout_marginTop="15dp"
+            android:onClick="backRemoveAssessment"
+            android:layout_weight="0"/>
+        <EditText
+            android:id="@+id/deleteId"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:inputType="phone"/>
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:text="ID TO REMOVE"/>
+        <Button
+            android:text="Submit"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="40sp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/removeId"
+            android:layout_weight="0"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="400dp"
+            android:textSize="30sp"
+            android:text=""
+            android:id="@+id/assessmentsTextView" />
+    </LinearLayout>
+</ScrollView>
